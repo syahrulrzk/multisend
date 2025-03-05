@@ -81,7 +81,7 @@ async function sendEther(toAddress, amount, gasPrice, nonce) {
 
 // Main process
 async function main() {
-  cfonts.say("NT Exhaust", {
+  cfonts.say("REBORN_RED", {
     font: "block",
     align: "center",
     colors: ["cyan", "magenta"],
@@ -92,7 +92,7 @@ async function main() {
     maxLength: "0",
   });
 
-  styledLog("=== Telegram Channel : NT Exhaust (@NTExhaust) ===", "\x1b[36m");
+  styledLog("=== Telegram Channel : REBORN_RED (@REBORN_RED) ===", "\x1b[36m");
 
   const filePath = await promptQuestion("Enter the path to the address file (e.g., addresses.txt): ");
   const recipients = readAddressesFromFile(filePath);
